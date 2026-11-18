@@ -69,12 +69,6 @@ body {
 
 }
 
-.leftcolumn {
-  border: 10px solid #EFEBE9;
-  background-color: white;
-  border-radius: 10px;
-}
-
 .colpage {
   display: flex;
   gap: 30px;
@@ -85,9 +79,9 @@ body {
 
 .colleft,
 .colright {
-  flex: 0 0 200px;   /* fixed 200px, don't grow or shrink */
+  flex: 0 0 200px;
 }
 
 .main-col {
-  flex: 1;           /* take all the remaining space */
+  flex: 1;
 }
